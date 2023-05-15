@@ -1,4 +1,5 @@
-{
+[
+    {
     "userName": "superPippo", //(min3 char)*
     "name": "pippo", //(min 3 char)*
     "surname": "de pippis", //(min 3 char)*
@@ -9,3 +10,4 @@
     "gender": "male",
     "phone": "+393456789"
 }
+]
