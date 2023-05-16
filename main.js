@@ -53,16 +53,16 @@ function createUser(){
  //ADD A HIDDEN DIV!! <div id="error-display"></div> after REGISTRATION BOX in registration page, css display hidden
  const displayError=document.getElementById("error-display");
  displayError.style.display = "none";
- console.log(name);
- console.log(surname);
- console.log(gender);
- console.log(yob);
- console.log(username);
- console.log(password);
- console.log(password_check);
- console.log(email);
- console.log(phonenumber);
- console.log(_newsletter);
+//  console.log(name);
+//  console.log(surname);
+//  console.log(gender);
+//  console.log(yob);
+//  console.log(username);
+//  console.log(password);
+//  console.log(password_check);
+//  console.log(email);
+//  console.log(phonenumber);
+//  console.log(_newsletter);
 
  console.log('test');
  displayError.innerHTML=``;
@@ -109,3 +109,9 @@ function createUser(){
 
 }
 
+// /* * AGGIUNTE CHERUBINI **/
+// #error-display{
+//     display: none;
+//     text-shadow: 2px 2px 12px rgba(248, 248, 255, 0.8);
+//     color: rgb(197, 0, 0);
+// }  E DIV CON ID displayError
